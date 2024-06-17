@@ -54,8 +54,6 @@ namespace TestTask1
 
             context.Database.Migrate();
 
-            app.UseStaticFiles();
-
             app.UseRouting();
 
             app.UseAuthorization();
